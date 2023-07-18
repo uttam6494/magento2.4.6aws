@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Load libraries
+. /opt/bitnami/scripts/libos.sh
+. /opt/bitnami/scripts/liblog.sh
+
+if ! am_i_root; then
+    error "Please run this script as a superuser, to be able to execute Magento CLI with the proper user"
+    exit 1
+fi
+
+gosu daemon /opt/bitnami/php/bin/php /opt/bitnami/magento/bin/magento "$@"

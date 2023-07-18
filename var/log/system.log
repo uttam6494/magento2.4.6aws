@@ -1,0 +1,861 @@
+[2023-07-10T11:52:18.249787+00:00] main.CRITICAL: No cache server(s) could be purged Cache host: localhost:80resulted in error message: Unable to connect to localhost:80 . Error #0: stream_socket_client(): Unable to connect to localhost:80 (Connection refused) {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://localhost:80/"}],"formattedTagsChunk":"((^|,)cat_c(,|$))"}} []
+[2023-07-10T11:52:18.664791+00:00] main.CRITICAL: No cache server(s) could be purged Cache host: localhost:80resulted in error message: Unable to connect to localhost:80 . Error #0: stream_socket_client(): Unable to connect to localhost:80 (Connection refused) {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://localhost:80/"}],"formattedTagsChunk":"((^|,)cat_c(,|$))|((^|,)cat_p(,|$))|((^|,)BLOCK_HTML(,|$))"}} []
+[2023-07-10T11:52:18.859927+00:00] main.CRITICAL: No cache server(s) could be purged Cache host: localhost:80resulted in error message: Unable to connect to localhost:80 . Error #0: stream_socket_client(): Unable to connect to localhost:80 (Connection refused) {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://localhost:80/"}],"formattedTagsChunk":"((^|,)cat_c(,|$))|((^|,)cat_p(,|$))"}} []
+[2023-07-10T11:52:19.068660+00:00] main.CRITICAL: No cache server(s) could be purged Cache host: localhost:80resulted in error message: Unable to connect to localhost:80 . Error #0: stream_socket_client(): Unable to connect to localhost:80 (Connection refused) {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://localhost:80/"}],"formattedTagsChunk":"((^|,)cat_c(,|$))|((^|,)cat_p(,|$))"}} []
+[2023-07-10T11:52:19.247620+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 5000; Allocated memory size: 4000000 bytes; InnoDB buffer pool size: 16777216 bytes. [] []
+[2023-07-10T11:52:19.251396+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 5000; Allocated memory size: 4000000 bytes; InnoDB buffer pool size: 16777216 bytes. [] []
+[2023-07-10T11:52:19.254484+00:00] main.WARNING: Memory size allocated for the temporary table is more than 20% of innodb_buffer_pool_size. Please update innodb_buffer_pool_size or decrease batch size value (which decreases memory usages for the temporary table). Current batch size: 5000; Allocated memory size: 4000000 bytes; InnoDB buffer pool size: 16777216 bytes. [] []
+[2023-07-10T11:52:19.308130+00:00] main.CRITICAL: No cache server(s) could be purged Cache host: localhost:80resulted in error message: Unable to connect to localhost:80 . Error #0: stream_socket_client(): Unable to connect to localhost:80 (Connection refused) {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://localhost:80/"}],"formattedTagsChunk":"((^|,)cat_c(,|$))|((^|,)cat_p(,|$))"}} []
+[2023-07-10T11:52:22.154830+00:00] main.CRITICAL: No cache server(s) could be purged Cache host: localhost:80resulted in error message: Unable to connect to localhost:80 . Error #0: stream_socket_client(): Unable to connect to localhost:80 (Connection refused) {"method":"GET","url":"http:/","invalidateInfo":{"servers":[{"Laminas\\Uri\\Uri":"http://localhost:80/"}],"formattedTagsChunk":".*"}} []
+[2023-07-10T12:00:05.921823+00:00] main.INFO: Request token o4pcqh4yr8tnws5i98k66xv0sz9zcqyc was exchanged to obtain access token for consumer 1 [] []
+[2023-07-10T12:00:09.845759+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T12:13:05.816123+00:00] main.INFO: Item Magento_Backend::system_currency was removed [] []
+[2023-07-10T12:13:05.825925+00:00] main.INFO: Add of item with id Magento_Config::system_config was processed [] []
+[2023-07-10T12:13:05.826390+00:00] main.INFO: Add of item with id Magento_AdminNotification::system_adminnotification was processed [] []
+[2023-07-10T12:13:05.826699+00:00] main.INFO: Add of item with id Magento_Theme::design_config was processed [] []
+[2023-07-10T12:13:05.826985+00:00] main.INFO: Add of item with id Magento_Theme::system_design_theme was processed [] []
+[2023-07-10T12:13:05.827264+00:00] main.INFO: Add of item with id Magento_Backend::system_design_schedule was processed [] []
+[2023-07-10T12:13:05.827555+00:00] main.INFO: Add of item with id Magento_Backend::system_store was processed [] []
+[2023-07-10T12:13:05.827832+00:00] main.INFO: Add of item with id Magento_Backend::dashboard was processed [] []
+[2023-07-10T12:13:05.828108+00:00] main.INFO: Add of item with id Magento_Backend::system was processed [] []
+[2023-07-10T12:13:05.828449+00:00] main.INFO: Add of item with id Magento_Backend::system_tools was processed [] []
+[2023-07-10T12:13:05.828761+00:00] main.INFO: Add of item with id Magento_Backend::system_design was processed [] []
+[2023-07-10T12:13:05.829034+00:00] main.INFO: Add of item with id Magento_Backend::system_convert was processed [] []
+[2023-07-10T12:13:05.829343+00:00] main.INFO: Add of item with id Magento_Backend::system_cache was processed [] []
+[2023-07-10T12:13:05.829620+00:00] main.INFO: Add of item with id Magento_Backend::marketing was processed [] []
+[2023-07-10T12:13:05.829923+00:00] main.INFO: Add of item with id Magento_Backend::marketing_communications was processed [] []
+[2023-07-10T12:13:05.830204+00:00] main.INFO: Add of item with id Magento_Backend::marketing_seo was processed [] []
+[2023-07-10T12:13:05.830478+00:00] main.INFO: Add of item with id Magento_Backend::marketing_user_content was processed [] []
+[2023-07-10T12:13:05.830764+00:00] main.INFO: Add of item with id Magento_Backend::content was processed [] []
+[2023-07-10T12:13:05.831050+00:00] main.INFO: Add of item with id Magento_Backend::content_elements was processed [] []
+[2023-07-10T12:13:05.831323+00:00] main.INFO: Add of item with id Magento_Backend::stores was processed [] []
+[2023-07-10T12:13:05.831623+00:00] main.INFO: Add of item with id Magento_Backend::stores_settings was processed [] []
+[2023-07-10T12:13:05.831916+00:00] main.INFO: Add of item with id Magento_Backend::stores_attributes was processed [] []
+[2023-07-10T12:13:05.832195+00:00] main.INFO: Add of item with id Magento_Backend::other_settings was processed [] []
+[2023-07-10T12:13:05.832523+00:00] main.INFO: Add of item with id Magento_Backend::system_other_settings was processed [] []
+[2023-07-10T12:13:05.832808+00:00] main.INFO: Add of item with id Magento_User::system_acl was processed [] []
+[2023-07-10T12:13:05.833116+00:00] main.INFO: Add of item with id Magento_User::system_acl_users was processed [] []
+[2023-07-10T12:13:05.833395+00:00] main.INFO: Add of item with id Magento_User::system_acl_roles was processed [] []
+[2023-07-10T12:13:05.833670+00:00] main.INFO: Add of item with id Magento_User::system_acl_locks was processed [] []
+[2023-07-10T12:13:05.833944+00:00] main.INFO: Add of item with id Magento_Customer::customer was processed [] []
+[2023-07-10T12:13:05.834232+00:00] main.INFO: Add of item with id Magento_Customer::customer_manage was processed [] []
+[2023-07-10T12:13:05.834513+00:00] main.INFO: Add of item with id Magento_Customer::customer_online was processed [] []
+[2023-07-10T12:13:05.834786+00:00] main.INFO: Add of item with id Magento_Customer::customer_group was processed [] []
+[2023-07-10T12:13:05.835060+00:00] main.INFO: Add of item with id Magento_Backup::system_tools_backup was processed [] []
+[2023-07-10T12:13:05.835334+00:00] main.INFO: Add of item with id Magento_Indexer::system_index was processed [] []
+[2023-07-10T12:13:05.835625+00:00] main.INFO: Add of item with id Magento_Variable::system_variable was processed [] []
+[2023-07-10T12:13:05.835927+00:00] main.INFO: Add of item with id Magento_Cms::cms_page was processed [] []
+[2023-07-10T12:13:05.836210+00:00] main.INFO: Add of item with id Magento_Cms::cms_block was processed [] []
+[2023-07-10T12:13:05.836544+00:00] main.INFO: Add of item with id Magento_Search::search_terms was processed [] []
+[2023-07-10T12:13:05.836829+00:00] main.INFO: Add of item with id Magento_Search::search_synonyms was processed [] []
+[2023-07-10T12:13:05.837105+00:00] main.INFO: Add of item with id Magento_Catalog::catalog was processed [] []
+[2023-07-10T12:13:05.837392+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_products was processed [] []
+[2023-07-10T12:13:05.837672+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_categories was processed [] []
+[2023-07-10T12:13:05.837960+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_attributes was processed [] []
+[2023-07-10T12:13:05.838239+00:00] main.INFO: Add of item with id Magento_Catalog::catalog_attributes_sets was processed [] []
+[2023-07-10T12:13:05.838551+00:00] main.INFO: Add of item with id Magento_Catalog::inventory was processed [] []
+[2023-07-10T12:13:05.838848+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo was processed [] []
+[2023-07-10T12:13:05.839139+00:00] main.INFO: Add of item with id Magento_CatalogRule::promo_catalog was processed [] []
+[2023-07-10T12:13:05.839428+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media was processed [] []
+[2023-07-10T12:13:05.839719+00:00] main.INFO: Add of item with id Magento_MediaGalleryUi::media_gallery was processed [] []
+[2023-07-10T12:13:05.840012+00:00] main.INFO: Add of item with id Magento_Integration::system_extensions was processed [] []
+[2023-07-10T12:13:05.840323+00:00] main.INFO: Add of item with id Magento_Integration::system_integrations was processed [] []
+[2023-07-10T12:13:05.840608+00:00] main.INFO: Add of item with id Magento_Sales::sales was processed [] []
+[2023-07-10T12:13:05.840898+00:00] main.INFO: Add of item with id Magento_Sales::sales_operation was processed [] []
+[2023-07-10T12:13:05.841189+00:00] main.INFO: Add of item with id Magento_Sales::sales_order was processed [] []
+[2023-07-10T12:13:05.841469+00:00] main.INFO: Add of item with id Magento_Sales::sales_invoice was processed [] []
+[2023-07-10T12:13:05.841745+00:00] main.INFO: Add of item with id Magento_Sales::sales_shipment was processed [] []
+[2023-07-10T12:13:05.842018+00:00] main.INFO: Add of item with id Magento_Sales::sales_creditmemo was processed [] []
+[2023-07-10T12:13:05.842290+00:00] main.INFO: Add of item with id Magento_Sales::sales_transactions was processed [] []
+[2023-07-10T12:13:05.842564+00:00] main.INFO: Add of item with id Magento_Sales::system_order_statuses was processed [] []
+[2023-07-10T12:13:05.842838+00:00] main.INFO: Add of item with id Magento_Widget::cms_widget_instance was processed [] []
+[2023-07-10T12:13:05.843125+00:00] main.INFO: Add of item with id Magento_Analytics::business_intelligence was processed [] []
+[2023-07-10T12:13:05.843427+00:00] main.INFO: Add of item with id Magento_Analytics::advanced_reporting was processed [] []
+[2023-07-10T12:13:05.843710+00:00] main.INFO: Add of item with id Magento_Analytics::bi_essentials was processed [] []
+[2023-07-10T12:13:05.843999+00:00] main.INFO: Add of item with id Magento_Downloadable::report_products_downloads was processed [] []
+[2023-07-10T12:13:05.844317+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_import was processed [] []
+[2023-07-10T12:13:05.844644+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_export was processed [] []
+[2023-07-10T12:13:05.844931+00:00] main.INFO: Add of item with id Magento_ImportExport::system_convert_history was processed [] []
+[2023-07-10T12:13:05.845225+00:00] main.INFO: Add of item with id Magento_Email::template was processed [] []
+[2023-07-10T12:13:05.845507+00:00] main.INFO: Add of item with id Magento_EncryptionKey::system_crypt_key was processed [] []
+[2023-07-10T12:13:05.845781+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::inventory was processed [] []
+[2023-07-10T12:13:05.846080+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::source was processed [] []
+[2023-07-10T12:13:05.846359+00:00] main.INFO: Add of item with id Magento_InventoryAdminUi::stock was processed [] []
+[2023-07-10T12:13:05.846633+00:00] main.INFO: Add of item with id Magento_Reports::report was processed [] []
+[2023-07-10T12:13:05.846906+00:00] main.INFO: Add of item with id Magento_Reports::report_marketing was processed [] []
+[2023-07-10T12:13:05.847178+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot was processed [] []
+[2023-07-10T12:13:05.847473+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_sales was processed [] []
+[2023-07-10T12:13:05.847754+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_tax was processed [] []
+[2023-07-10T12:13:05.848028+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_invoiced was processed [] []
+[2023-07-10T12:13:05.848314+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_shipping was processed [] []
+[2023-07-10T12:13:05.848589+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_refunded was processed [] []
+[2023-07-10T12:13:05.848862+00:00] main.INFO: Add of item with id Magento_Reports::report_salesroot_coupons was processed [] []
+[2023-07-10T12:13:05.849148+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_product was processed [] []
+[2023-07-10T12:13:05.849441+00:00] main.INFO: Add of item with id Magento_Reports::report_shopcart_abandoned was processed [] []
+[2023-07-10T12:13:05.849716+00:00] main.INFO: Add of item with id Magento_Reports::report_products was processed [] []
+[2023-07-10T12:13:05.849989+00:00] main.INFO: Add of item with id Magento_Reports::report_products_bestsellers was processed [] []
+[2023-07-10T12:13:05.850263+00:00] main.INFO: Add of item with id Magento_Reports::report_products_sold was processed [] []
+[2023-07-10T12:13:05.850535+00:00] main.INFO: Add of item with id Magento_Reports::report_products_viewed was processed [] []
+[2023-07-10T12:13:05.850807+00:00] main.INFO: Add of item with id Magento_Reports::report_products_lowstock was processed [] []
+[2023-07-10T12:13:05.851079+00:00] main.INFO: Add of item with id Magento_Reports::report_customers was processed [] []
+[2023-07-10T12:13:05.851365+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_accounts was processed [] []
+[2023-07-10T12:13:05.851658+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_totals was processed [] []
+[2023-07-10T12:13:05.851931+00:00] main.INFO: Add of item with id Magento_Reports::report_customers_orders was processed [] []
+[2023-07-10T12:13:05.852204+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics was processed [] []
+[2023-07-10T12:13:05.852507+00:00] main.INFO: Add of item with id Magento_Reports::report_statistics_refresh was processed [] []
+[2023-07-10T12:13:05.852787+00:00] main.INFO: Add of item with id Magento_Search::report_search_term was processed [] []
+[2023-07-10T12:13:05.853063+00:00] main.INFO: Add of item with id Magento_LoginAsCustomerLog::login_log was processed [] []
+[2023-07-10T12:13:05.853411+00:00] main.INFO: Add of item with id Magento_Marketplace::partners was processed [] []
+[2023-07-10T12:13:05.853711+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_template was processed [] []
+[2023-07-10T12:13:05.853987+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_queue was processed [] []
+[2023-07-10T12:13:05.854261+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_subscriber was processed [] []
+[2023-07-10T12:13:05.854534+00:00] main.INFO: Add of item with id Magento_Newsletter::newsletter_problem was processed [] []
+[2023-07-10T12:13:05.854806+00:00] main.INFO: Add of item with id Magento_SalesRule::promo_quote was processed [] []
+[2023-07-10T12:13:05.855079+00:00] main.INFO: Add of item with id Magento_Sitemap::catalog_sitemap was processed [] []
+[2023-07-10T12:13:05.855436+00:00] main.INFO: Add of item with id Magento_PageBuilder::templates was processed [] []
+[2023-07-10T12:13:05.855716+00:00] main.INFO: Add of item with id Magento_Paypal::report_salesroot_paypal_settlement_reports was processed [] []
+[2023-07-10T12:13:05.855992+00:00] main.INFO: Add of item with id Magento_Paypal::paypal_billing_agreement was processed [] []
+[2023-07-10T12:13:05.856288+00:00] main.INFO: Add of item with id Magento_CheckoutAgreements::sales_checkoutagreement was processed [] []
+[2023-07-10T12:13:05.856575+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_ratings was processed [] []
+[2023-07-10T12:13:05.856882+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_pending was processed [] []
+[2023-07-10T12:13:05.857163+00:00] main.INFO: Add of item with id Magento_Review::catalog_reviews_ratings_reviews_all was processed [] []
+[2023-07-10T12:13:05.857439+00:00] main.INFO: Add of item with id Magento_Review::report_review was processed [] []
+[2023-07-10T12:13:05.857729+00:00] main.INFO: Add of item with id Magento_Review::report_review_customer was processed [] []
+[2023-07-10T12:13:05.858008+00:00] main.INFO: Add of item with id Magento_Review::report_review_product was processed [] []
+[2023-07-10T12:13:05.858282+00:00] main.INFO: Add of item with id Magento_UrlRewrite::urlrewrite was processed [] []
+[2023-07-10T12:13:05.858556+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax was processed [] []
+[2023-07-10T12:13:05.858852+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rules was processed [] []
+[2023-07-10T12:13:05.859130+00:00] main.INFO: Add of item with id Magento_Tax::sales_tax_rates was processed [] []
+[2023-07-10T12:13:05.859413+00:00] main.INFO: Add of item with id Magento_TaxImportExport::system_convert_tax was processed [] []
+[2023-07-10T12:13:05.859690+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging was processed [] []
+[2023-07-10T12:13:05.859978+00:00] main.INFO: Add of item with id Magento_AsynchronousOperations::system_magento_logging_bulk_operations was processed [] []
+[2023-07-10T12:13:05.860270+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency was processed [] []
+[2023-07-10T12:13:05.860561+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_rates was processed [] []
+[2023-07-10T12:13:05.860840+00:00] main.INFO: Add of item with id Magento_CurrencySymbol::system_currency_symbols was processed [] []
+[2023-07-10T12:13:05.861114+00:00] main.INFO: Add of item with id PayPal_Braintree::settlement_report was processed [] []
+[2023-07-10T12:13:05.861388+00:00] main.INFO: Add of item with id PayPal_Braintree::virtual_terminal was processed [] []
+[2023-07-10T13:00:06.724122+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T14:00:06.479031+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T15:00:06.523523+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T16:00:08.712221+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T17:00:06.440892+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T18:00:08.234115+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T19:00:06.389209+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T20:00:06.037095+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T21:00:06.362457+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T22:00:07.035511+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-10T23:00:10.156363+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T00:00:48.289316+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T01:00:20.962531+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T02:00:07.417341+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T03:00:05.959454+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T04:00:06.559745+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T05:00:09.436699+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T06:00:14.245861+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T07:00:26.193739+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T08:00:08.374751+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T09:00:13.219095+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T10:00:06.664965+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T11:00:06.575616+00:00] main.WARNING: Subscription for MBI service has been failed. An error occurred during token exchange: {"message":"We are unable to connect to your store. Your certificate is invalid."}. Content-Type: application/json; charset=UTF-8 [] []
+[2023-07-11T11:19:13.154647+00:00] main.ERROR: Requested path 'admin/javascript/hetong.js' is wrong. [] []
+[2023-07-11T11:19:13.155904+00:00] main.CRITICAL: Requested path 'admin/javascript/hetong.js' is wrong. [] []
+[2023-07-11T17:15:08.093764+00:00] main.ERROR: Requested path 'admin/javascript/hetong.js' is wrong. [] []
+[2023-07-11T17:15:08.094594+00:00] main.CRITICAL: Requested path 'admin/javascript/hetong.js' is wrong. [] []
+[2023-07-13T03:39:01.542084+00:00] main.ERROR: Requested path '.env' is wrong. [] []
+[2023-07-13T03:39:01.543223+00:00] main.CRITICAL: Requested path '.env' is wrong. [] []
+[2023-07-13T03:39:19.305559+00:00] main.ERROR: The path is not allowed: media/.env [] []
+[2023-07-13T10:12:43.157011+00:00] main.ERROR: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 [] []
+[2023-07-13T10:14:07.016515+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/ObjectManager/Config/Reader/Dom/.
+Class Magento\Framework\ObjectManager\Config\Reader\Dom\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-13T10:14:08.978312+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/ObjectManager/Config/Reader/Dom/.
+Class Magento\Framework\ObjectManager\Config\Reader\Dom\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-13T10:14:11.379868+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/RemoteStorage/Driver/Adapter/.
+Class Magento\RemoteStorage\Driver\Adapter\MetadataProviderInterfaceFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:13.069273+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1000" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1000): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:19.433465+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1009" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1009): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:23.422598+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1002" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1002): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:27.351141+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1008" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1008): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:28.705152+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1004" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1004): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:30.395451+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1006" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1006): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:30.395386+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1005" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1005): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:32.700001+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1010" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1010): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:35.449774+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1001" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1001): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:48.995090+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1774" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1774): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:57.580449+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.1356" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.1356): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:57.631441+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.1356" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.1356): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:06:57.640826+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:07:53.477220+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Directory/Model/ResourceModel/Region/.
+Class Magento\Directory\Model\ResourceModel\Region\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:07:58.809394+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1000" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1000): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:07:58.809464+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1003" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1003): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:10:05.830119+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2064" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2064): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:10:06.395374+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2064" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2064): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:10:06.462466+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:10:19.793353+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1000" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1000): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:10:24.009829+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2071" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2071): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:10:24.215581+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2071" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2071): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:10:24.235852+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:11:46.676477+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1008" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1008): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:11:53.367269+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1810" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1810): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:11:59.364294+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2155" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2155): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:11:59.933153+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2155" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2155): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:12:00.032881+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:12:01.749976+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2174" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2174): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:12:01.955828+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2174" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2174): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:12:01.962027+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:13:13.150832+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1494" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1494): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:13:29.318978+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2198" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2198): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:13:29.359320+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2198" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2198): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:13:29.372066+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:13:32.077117+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2221" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2221): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:13:32.083512+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2221" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2221): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:13:32.117145+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:14:40.768777+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2226" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2226): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:14:40.774323+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2226" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2226): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:14:40.798111+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:15:18.623936+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2265" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2265): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:18.643911+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2265" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2265): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:18.655994+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:15:52.399549+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2290" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2290): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:52.403235+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2290" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2290): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:52.409539+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:15:54.212753+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1494" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1494): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:59.454902+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2303" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2303): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:59.457655+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2303" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/View/Design/Theme/CustomizationFactory.php.2303): Failed to open stream: Permission denied
+Class Magento\Framework\View\Design\Theme\CustomizationFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:15:59.459074+00:00] main.ERROR: Impossible to process constructor argument Parameter #6 [ <required> Magento\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ] of Magento\Theme\Model\Theme class
+#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#3 /bitnami/magento/generated/code/Magento/Theme/Model/ThemeFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#4 /bitnami/magento/vendor/magento/module-theme/Model/View/Design.php(229): Magento\Theme\Model\ThemeFactory->create()
+#5 /bitnami/magento/generated/code/Magento/Theme/Model/View/Design/Proxy.php(135): Magento\Theme\Model\View\Design->getDesignTheme()
+#6 /bitnami/magento/vendor/magento/framework/Translate.php(246): Magento\Theme\Model\View\Design\Proxy->getDesignTheme()
+#7 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#8 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#9 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#10 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#11 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#12 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#13 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#14 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#15 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#17 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#18 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#19 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#20 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#22 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#23 {main} [] []
+[2023-07-17T12:16:00.432133+00:00] main.CRITICAL: The specified "/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1008" file couldn't be written. Warning!file_put_contents(/bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php.1008): Failed to open stream: Permission denied
+Class Magento\Framework\App\Http\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:06.705216+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T12:16:29.393598+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:34.415498+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:39.434251+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:44.535868+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:49.550738+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:54.570895+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:16:59.585300+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:01.941730+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:04.604253+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:09.622332+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:14.636296+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:19.649346+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:24.662061+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/.
+Class Magento\Framework\App\ResourceConnection\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:17:29.718261+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/RemoteStorage/Driver/Adapter/.
+Class Magento\RemoteStorage\Driver\Adapter\MetadataProviderInterfaceFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:18:39.932858+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/Stat/.
+Class Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:18:39.938151+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/Stat/.
+Class Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T12:18:39.947673+00:00] main.ERROR: Class "Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor" does not exist
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/StatFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(222): Magento\Framework\Profiler\Driver\Standard\StatFactory->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Cron\Observer\ProcessCronQueueObserver->__construct()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#9 /bitnami/magento/vendor/magento/framework/Event/ObserverFactory.php(36): Magento\Framework\ObjectManager\ObjectManager->get()
+#10 /bitnami/magento/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): Magento\Framework\Event\ObserverFactory->get()
+#11 /bitnami/magento/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#12 /bitnami/magento/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#13 /bitnami/magento/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch()
+#14 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#15 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#17 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#18 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#19 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#20 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#24 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#25 {main} [] []
+[2023-07-17T13:18:10.997180+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:20:36.826427+00:00] main.ERROR: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 [] []
+[2023-07-17T13:25:58.752258+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/RemoteStorage/Driver/Adapter/.
+Class Magento\RemoteStorage\Driver\Adapter\MetadataProviderInterfaceFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:26:06.090340+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:32:04.075798+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:33:02.100875+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:34:02.390809+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:34:18.440412+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/Config/Initial/Converter/.
+Class Magento\Framework\App\Config\Initial\Converter\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:34:18.465888+00:00] main.ERROR: There are no commands defined in the "indexer" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:34:35.700315+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/Config/Initial/Converter/.
+Class Magento\Framework\App\Config\Initial\Converter\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:34:35.706418+00:00] main.ERROR: There are no commands defined in the "c" namespace.
+
+Did you mean one of these?
+    info:backups
+    info:currency
+    info:dependencies
+    module:config
+    setup:config
+    setup:db-schema
+    setup:performance
+    setup:static-content
+    setup:store-config
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:34:58.088241+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/App/Config/Initial/Converter/.
+Class Magento\Framework\App\Config\Initial\Converter\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:34:58.094360+00:00] main.ERROR: There are no commands defined in the "c" namespace.
+
+Did you mean one of these?
+    info:backups
+    info:currency
+    info:dependencies
+    module:config
+    setup:config
+    setup:db-schema
+    setup:performance
+    setup:static-content
+    setup:store-config
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:35:03.668627+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-17T13:36:10.936783+00:00] main.ERROR: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_MAGE): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(691): file_put_contents()
+#2 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(203): Cm_Cache_Backend_File->_updateIdsTags()
+#3 /bitnami/magento/vendor/magento/zend-cache/library/Zend/Cache/Core.php(390): Cm_Cache_Backend_File->save()
+#4 /bitnami/magento/vendor/magento/framework/Cache/Core.php(74): Zend_Cache_Core->save()
+#5 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Adapter/Zend.php(63): Magento\Framework\Cache\Core->save()
+#6 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Adapter\Zend->save()
+#7 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#8 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#9 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#10 /bitnami/magento/vendor/magento/framework/App/Cache/Type/AccessProxy.php(85): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#11 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\App\Cache\Type\AccessProxy->save()
+#12 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#13 /bitnami/magento/vendor/magento/framework/App/ObjectManager/ConfigLoader.php(77): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#14 /bitnami/magento/vendor/magento/framework/App/Cron.php(80): Magento\Framework\App\ObjectManager\ConfigLoader->load()
+#15 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#16 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#17 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#18 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#19 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#20 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#22 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#23 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#25 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#26 {main} [] []
+[2023-07-17T13:36:18.187448+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Catalog/Model/ResourceModel/Product/.
+Class Magento\Catalog\Model\ResourceModel\Product\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:36:18.190167+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Catalog/Model/ResourceModel/Product/.
+Class Magento\Catalog\Model\ResourceModel\Product\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:36:28.520689+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Catalog/Model/ResourceModel/Product/.
+Class Magento\Catalog\Model\ResourceModel\Product\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:36:28.523885+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Catalog/Model/ResourceModel/Product/.
+Class Magento\Catalog\Model\ResourceModel\Product\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:36:32.609398+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Catalog/Model/ResourceModel/Product/.
+Class Magento\Catalog\Model\ResourceModel\Product\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:36:32.610417+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Catalog/Model/ResourceModel/Product/.
+Class Magento\Catalog\Model\ResourceModel\Product\CollectionFactory generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:36:37.955756+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/ObjectManager/Config/Reader/Dom/.
+Class Magento\Framework\ObjectManager\Config\Reader\Dom\Proxy generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:38:09.378857+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/Stat/.
+Class Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:38:09.399013+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/Stat/.
+Class Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:38:09.409300+00:00] main.ERROR: Class "Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor" does not exist
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/StatFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(222): Magento\Framework\Profiler\Driver\Standard\StatFactory->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Cron\Observer\ProcessCronQueueObserver->__construct()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#9 /bitnami/magento/vendor/magento/framework/Event/ObserverFactory.php(36): Magento\Framework\ObjectManager\ObjectManager->get()
+#10 /bitnami/magento/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): Magento\Framework\Event\ObserverFactory->get()
+#11 /bitnami/magento/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#12 /bitnami/magento/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#13 /bitnami/magento/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch()
+#14 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#15 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#17 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#18 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#19 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#20 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#24 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#25 {main} [] []
+[2023-07-17T13:38:49.086210+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/Stat/.
+Class Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:38:49.092326+00:00] main.CRITICAL: Can't create directory /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/Stat/.
+Class Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor generation error: The requested class did not generate properly, because the 'generated' directory permission is read-only. If --- after running the 'bin/magento setup:di:compile' CLI command when the 'generated' directory permission is set to write --- the requested class did not generate properly, then you must add the generated class object to the signature of the related construct method, only. [] []
+[2023-07-17T13:38:49.094110+00:00] main.ERROR: Class "Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor" does not exist
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/generated/code/Magento/Framework/Profiler/Driver/Standard/StatFactory.php(43): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php(222): Magento\Framework\Profiler\Driver\Standard\StatFactory->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Cron\Observer\ProcessCronQueueObserver->__construct()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#9 /bitnami/magento/vendor/magento/framework/Event/ObserverFactory.php(36): Magento\Framework\ObjectManager\ObjectManager->get()
+#10 /bitnami/magento/vendor/magento/framework/Event/Invoker/InvokerDefault.php(72): Magento\Framework\Event\ObserverFactory->get()
+#11 /bitnami/magento/vendor/magento/framework/Event/Manager.php(65): Magento\Framework\Event\Invoker\InvokerDefault->dispatch()
+#12 /bitnami/magento/generated/code/Magento/Framework/Event/Manager/Proxy.php(95): Magento\Framework\Event\Manager->dispatch()
+#13 /bitnami/magento/vendor/magento/framework/App/Cron.php(86): Magento\Framework\Event\Manager\Proxy->dispatch()
+#14 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#15 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#16 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#17 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#18 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#19 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(77): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#20 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#21 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#24 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#25 {main} [] []
+[2023-07-18T06:01:16.870396+00:00] main.ERROR: There are no commands defined in the "cron" namespace.
+#0 /bitnami/magento/vendor/symfony/console/Application.php(701): Symfony\Component\Console\Application->findNamespace()
+#1 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#2 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#3 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#4 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2023-07-18T06:02:10.817347+00:00] main.ERROR: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(691): file_put_contents()
+#2 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(203): Cm_Cache_Backend_File->_updateIdsTags()
+#3 /bitnami/magento/vendor/magento/zend-cache/library/Zend/Cache/Core.php(390): Cm_Cache_Backend_File->save()
+#4 /bitnami/magento/vendor/magento/framework/Cache/Core.php(74): Zend_Cache_Core->save()
+#5 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Adapter/Zend.php(63): Magento\Framework\Cache\Core->save()
+#6 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Adapter\Zend->save()
+#7 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#8 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#9 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#10 /bitnami/magento/vendor/magento/framework/App/Cache/Type/AccessProxy.php(85): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#11 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\App\Cache\Type\AccessProxy->save()
+#12 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#13 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(255): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#14 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(190): Magento\Framework\Interception\PluginList\PluginList->_loadScopedData()
+#15 /bitnami/magento/generated/code/Magento/Framework/App/ResourceConnection/Interceptor.php(22): Magento\Framework\Interception\PluginList\PluginList->getNext()
+#16 /bitnami/magento/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(97): Magento\Framework\App\ResourceConnection\Interceptor->getTableName()
+#17 /bitnami/magento/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(61): Magento\Store\App\Config\Source\RuntimeConfigSource->getEntities()
+#18 /bitnami/magento/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(42): Magento\Store\App\Config\Source\RuntimeConfigSource->get()
+#19 /bitnami/magento/generated/code/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php(95): Magento\Framework\App\Config\ConfigSourceAggregated->get()
+#20 /bitnami/magento/vendor/magento/module-store/App/Config/Type/Scopes.php(63): Magento\Framework\App\Config\ConfigSourceAggregated\Proxy->get()
+#21 /bitnami/magento/vendor/magento/framework/App/Config.php(132): Magento\Store\App\Config\Type\Scopes->get()
+#22 /bitnami/magento/vendor/magento/module-store/Model/StoreRepository.php(106): Magento\Framework\App\Config->get()
+#23 /bitnami/magento/vendor/magento/module-store/Model/StoreRepository.php(127): Magento\Store\Model\StoreRepository->getById()
+#24 /bitnami/magento/vendor/magento/module-store/Model/StoreResolver.php(181): Magento\Store\Model\StoreRepository->getActiveStoreById()
+#25 /bitnami/magento/vendor/magento/module-store/Model/StoreResolver.php(126): Magento\Store\Model\StoreResolver->getDefaultStoreById()
+#26 /bitnami/magento/vendor/magento/module-store/Model/StoreManager.php(160): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#27 /bitnami/magento/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(119): Magento\Store\Model\StoreManager->getStore()
+#28 /bitnami/magento/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#29 /bitnami/magento/vendor/magento/framework/App/Config/ScopeCodeResolver.php(49): Magento\Store\Model\Resolver\Store->getScope()
+#30 /bitnami/magento/vendor/magento/framework/App/Config.php(69): Magento\Framework\App\Config\ScopeCodeResolver->resolve()
+#31 /bitnami/magento/vendor/magento/framework/Locale/Resolver.php(111): Magento\Framework\App\Config->getValue()
+#32 /bitnami/magento/vendor/magento/framework/Locale/Resolver.php(129): Magento\Framework\Locale\Resolver->getDefaultLocale()
+#33 /bitnami/magento/vendor/magento/framework/Locale/Resolver.php(83): Magento\Framework\Locale\Resolver->setLocale()
+#34 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Locale\Resolver->__construct()
+#35 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#36 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#37 /bitnami/magento/generated/code/Magento/Framework/Locale/Resolver/Proxy.php(84): Magento\Framework\ObjectManager\ObjectManager->get()
+#38 /bitnami/magento/generated/code/Magento/Framework/Locale/Resolver/Proxy.php(127): Magento\Framework\Locale\Resolver\Proxy->_getSubject()
+#39 /bitnami/magento/vendor/magento/framework/Translate.php(515): Magento\Framework\Locale\Resolver\Proxy->getLocale()
+#40 /bitnami/magento/vendor/magento/framework/Translate.php(240): Magento\Framework\Translate->getLocale()
+#41 /bitnami/magento/vendor/magento/framework/Translate.php(206): Magento\Framework\Translate->setConfig()
+#42 /bitnami/magento/vendor/magento/framework/App/Area.php(248): Magento\Framework\Translate->loadData()
+#43 /bitnami/magento/vendor/magento/framework/App/Area.php(219): Magento\Framework\App\Area->_initTranslate()
+#44 /bitnami/magento/vendor/magento/framework/App/Area.php(146): Magento\Framework\App\Area->_loadPart()
+#45 /bitnami/magento/vendor/magento/framework/App/Cron.php(82): Magento\Framework\App\Area->load()
+#46 /bitnami/magento/vendor/magento/module-cron/Console/Command/CronCommand.php(126): Magento\Framework\App\Cron->launch()
+#47 /bitnami/magento/vendor/symfony/console/Command/Command.php(298): Magento\Cron\Console\Command\CronCommand->execute()
+#48 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(58): Symfony\Component\Console\Command\Command->run()
+#49 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Cron\Console\Command\CronCommand\Interceptor->___callParent()
+#50 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Cron\Console\Command\CronCommand\Interceptor->Magento\Framework\Interception\{closure}()
+#51 /bitnami/magento/generated/code/Magento/Cron/Console/Command/CronCommand/Interceptor.php(23): Magento\Cron\Console\Command\CronCommand\Interceptor->___callPlugins()
+#52 /bitnami/magento/vendor/symfony/console/Application.php(1040): Magento\Cron\Console\Command\CronCommand\Interceptor->run()
+#53 /bitnami/magento/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#54 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#55 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#56 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#57 {main} [] []
+[2023-07-18T06:04:43.389295+00:00] main.ERROR: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 [] []

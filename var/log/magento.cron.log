@@ -1,0 +1,500 @@
+Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691
+Class "Magento\Framework\ObjectManager\Config\Reader\Dom\Proxy" does not exist
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 57:
+                                                                               
+  Impossible to process constructor argument Parameter #6 [ <required> Magent  
+  o\Framework\View\Design\Theme\CustomizationFactory $customizationFactory ]   
+  of Magento\Theme\Model\Theme class                                           
+                                                                               
+
+In GetParameterClassTrait.php line 34:
+                                                                               
+  Class "Magento\Framework\View\Design\Theme\CustomizationFactory" does not e  
+  xist                                                                         
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+Class "Magento\Framework\App\ResourceConnection\Proxy" does not exist
+
+In ClassReader.php line 34:
+                                                                               
+  Class "Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor" does no  
+  t exist                                                                      
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+There is an error in /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php at line: 121
+Class "Ced\Fruugo\Model\Config\SchemaLocator" not found#0 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#4 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#5 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#6 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#7 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#8 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#9 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#10 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#11 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#12 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#13 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#14 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#15 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(135): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/Console/Cli.php(154): Magento\Framework\ObjectManager\ObjectManager->create()
+#22 /bitnami/magento/vendor/magento/framework/Console/Cli.php(135): Magento\Framework\Console\Cli->getApplicationCommands()
+#23 /bitnami/magento/vendor/symfony/console/Application.php(1297): Magento\Framework\Console\Cli->getDefaultCommands()
+#24 /bitnami/magento/vendor/symfony/console/Application.php(673): Symfony\Component\Console\Application->init()
+#25 /bitnami/magento/vendor/symfony/console/Application.php(259): Symfony\Component\Console\Application->find()
+#26 /bitnami/magento/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#27 /bitnami/magento/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#28 /bitnami/magento/bin/magento(23): Symfony\Component\Console\Application->run()
+#29 {main}
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691
+Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691
+Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+In ErrorHandler.php line 62:
+                                                                               
+  Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000  
+  _MAGE): Failed to open stream: Permission denied in /bitnami/magento/vendor  
+  /colinmollenhour/cache-backend-file/File.php on line 691                     
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 34:
+                                                                               
+  Class "Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor" does no  
+  t exist                                                                      
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+In ClassReader.php line 34:
+                                                                               
+  Class "Magento\Framework\Profiler\Driver\Standard\Stat\Interceptor" does no  
+  t exist                                                                      
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+
+
+                                                          
+  There are no commands defined in the "cron" namespace.  
+                                                          
+
+
+In ErrorHandler.php line 62:
+                                                                               
+  Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000  
+  _COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/mag  
+  ento/vendor/colinmollenhour/cache-backend-file/File.php on line 691          
+                                                                               
+
+cron:run [--group GROUP] [--bootstrap BOOTSTRAP]
+

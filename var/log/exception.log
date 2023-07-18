@@ -1,0 +1,318 @@
+[2023-07-13T10:12:43.380516+00:00] main.CRITICAL: Exception: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 in /bitnami/magento/vendor/magento/framework/App/ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(691): file_put_contents()
+#2 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(203): Cm_Cache_Backend_File->_updateIdsTags()
+#3 /bitnami/magento/vendor/magento/zend-cache/library/Zend/Cache/Core.php(390): Cm_Cache_Backend_File->save()
+#4 /bitnami/magento/vendor/magento/framework/Cache/Core.php(74): Zend_Cache_Core->save()
+#5 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Adapter/Zend.php(63): Magento\Framework\Cache\Core->save()
+#6 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Adapter\Zend->save()
+#7 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#8 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#9 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#10 /bitnami/magento/vendor/magento/framework/App/Cache/Type/AccessProxy.php(85): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#11 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\App\Cache\Type\AccessProxy->save()
+#12 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#13 /bitnami/magento/vendor/magento/framework/Config/Data.php(106): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#14 /bitnami/magento/vendor/magento/framework/Config/Data.php(93): Magento\Framework\Config\Data->initData()
+#15 /bitnami/magento/vendor/magento/module-cron/Model/Groups/Config/Data.php(29): Magento\Framework\Config\Data->__construct()
+#16 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Cron\Model\Groups\Config\Data->__construct()
+#17 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#21 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#22 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#23 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#24 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#25 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(174): Magento\Framework\ObjectManager\ObjectManager->get()
+#26 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(144): Magento\Framework\Interception\PluginList\PluginList->getPlugin()
+#27 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Config\Initial\Converter\Interceptor->Magento\Framework\Interception\{closure}()
+#28 /bitnami/magento/generated/code/Magento/Framework/App/Config/Initial/Converter/Interceptor.php(23): Magento\Framework\App\Config\Initial\Converter\Interceptor->___callPlugins()
+#29 /bitnami/magento/vendor/magento/framework/App/Config/Initial/Reader.php(123): Magento\Framework\App\Config\Initial\Converter\Interceptor->convert()
+#30 /bitnami/magento/generated/code/Magento/Framework/App/Config/Initial/Reader/Proxy.php(95): Magento\Framework\App\Config\Initial\Reader->read()
+#31 /bitnami/magento/vendor/magento/framework/App/Config/Initial.php(56): Magento\Framework\App\Config\Initial\Reader\Proxy->read()
+#32 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\App\Config\Initial->__construct()
+#33 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(66): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#34 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#35 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#36 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#37 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#38 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#39 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#40 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#41 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(206): Magento\Framework\ObjectManager\ObjectManager->get()
+#42 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(182): Magento\Framework\ObjectManager\Factory\AbstractFactory->parseArray()
+#43 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#44 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#45 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#46 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#47 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#48 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(170): Magento\Framework\ObjectManager\ObjectManager->get()
+#49 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(276): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgument()
+#50 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(239): Magento\Framework\ObjectManager\Factory\AbstractFactory->getResolvedArgument()
+#51 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(34): Magento\Framework\ObjectManager\Factory\AbstractFactory->resolveArgumentsInRuntime()
+#52 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(59): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->_resolveArguments()
+#53 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#54 /bitnami/magento/generated/code/Magento/Config/App/Config/Type/System/Reader/Proxy.php(84): Magento\Framework\ObjectManager\ObjectManager->get()
+#55 /bitnami/magento/generated/code/Magento/Config/App/Config/Type/System/Reader/Proxy.php(95): Magento\Config\App\Config\Type\System\Reader\Proxy->_getSubject()
+#56 /bitnami/magento/vendor/magento/module-config/App/Config/Type/System.php(395): Magento\Config\App\Config\Type\System\Reader\Proxy->read()
+#57 /bitnami/magento/vendor/magento/framework/Cache/LockGuardedCacheLoader.php(136): Magento\Config\App\Config\Type\System->readData()
+#58 /bitnami/magento/vendor/magento/module-config/App/Config/Type/System.php(281): Magento\Framework\Cache\LockGuardedCacheLoader->lockedLoadData()
+#59 /bitnami/magento/vendor/magento/module-config/App/Config/Type/System.php(207): Magento\Config\App\Config\Type\System->loadDefaultScopeData()
+#60 /bitnami/magento/vendor/magento/module-config/App/Config/Type/System.php(181): Magento\Config\App\Config\Type\System->getWithParts()
+#61 /bitnami/magento/vendor/magento/framework/App/Config.php(132): Magento\Config\App\Config\Type\System->get()
+#62 /bitnami/magento/vendor/magento/framework/App/Config.php(80): Magento\Framework\App\Config->get()
+#63 /bitnami/magento/vendor/magento/framework/App/Config.php(93): Magento\Framework\App\Config->getValue()
+#64 /bitnami/magento/vendor/magento/module-new-relic-reporting/Model/Config.php(94): Magento\Framework\App\Config->isSetFlag()
+#65 /bitnami/magento/vendor/magento/module-new-relic-reporting/Plugin/HttpPlugin.php(49): Magento\NewRelicReporting\Model\Config->isNewRelicEnabled()
+#66 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(121): Magento\NewRelicReporting\Plugin\HttpPlugin->beforeCatchException()
+#67 /bitnami/magento/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#68 /bitnami/magento/generated/code/Magento/Framework/App/Http/Interceptor.php(32): Magento\Framework\App\Http\Interceptor->___callPlugins()
+#69 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(270): Magento\Framework\App\Http\Interceptor->catchException()
+#70 /bitnami/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#71 {main} {"exception":"[object] (Exception(code: 0): Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 at /bitnami/magento/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2023-07-17T12:06:13.145951+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:19.466993+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:23.457088+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:27.405670+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:28.757338+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:30.432792+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:30.438089+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:32.753976+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:35.500021+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:06:49.239755+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:07:58.934927+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:07:58.935199+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:10:19.955165+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:11:47.073283+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:11:53.599943+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:13:13.185263+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:15:54.216170+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T12:16:00.434397+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /bitnami/magento/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /bitnami/magento/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /bitnami/magento/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-07-17T13:20:36.833711+00:00] main.CRITICAL: Exception: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 in /bitnami/magento/vendor/magento/framework/App/ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(691): file_put_contents()
+#2 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(203): Cm_Cache_Backend_File->_updateIdsTags()
+#3 /bitnami/magento/vendor/magento/zend-cache/library/Zend/Cache/Core.php(390): Cm_Cache_Backend_File->save()
+#4 /bitnami/magento/vendor/magento/framework/Cache/Core.php(74): Zend_Cache_Core->save()
+#5 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Adapter/Zend.php(63): Magento\Framework\Cache\Core->save()
+#6 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Adapter\Zend->save()
+#7 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#8 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#9 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#10 /bitnami/magento/vendor/magento/framework/App/Cache/Type/AccessProxy.php(85): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#11 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\App\Cache\Type\AccessProxy->save()
+#12 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#13 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(255): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#14 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(190): Magento\Framework\Interception\PluginList\PluginList->_loadScopedData()
+#15 /bitnami/magento/generated/code/Magento/Framework/Session/Generic/Interceptor.php(22): Magento\Framework\Interception\PluginList\PluginList->getNext()
+#16 /bitnami/magento/vendor/magento/framework/Session/SessionManager.php(123): Magento\Framework\Session\Generic\Interceptor->start()
+#17 /bitnami/magento/generated/code/Magento/Framework/Session/Generic/Interceptor.php(14): Magento\Framework\Session\SessionManager->__construct()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Session\Generic\Interceptor->__construct()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#22 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#23 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#24 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#25 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#26 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#27 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#28 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#29 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#30 /bitnami/magento/vendor/magento/framework/App/FrontController.php(109): Magento\Framework\ObjectManager\ObjectManager->get()
+#31 /bitnami/magento/generated/code/Magento/Framework/App/FrontController/Interceptor.php(14): Magento\Framework\App\FrontController->__construct()
+#32 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\App\FrontController\Interceptor->__construct()
+#33 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#34 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#35 /bitnami/magento/vendor/magento/framework/App/Http.php(115): Magento\Framework\ObjectManager\ObjectManager->get()
+#36 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#37 /bitnami/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#38 {main} {"report_id":"422293a4aab9061011533713a65665748a326796f6adb0bd686b6c483611415c","exception":"[object] (Exception(code: 0): Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 at /bitnami/magento/vendor/magento/framework/App/ErrorHandler.php:62)"} []
+[2023-07-18T06:04:43.393784+00:00] main.CRITICAL: Exception: Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 in /bitnami/magento/vendor/magento/framework/App/ErrorHandler.php:62
+Stack trace:
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler()
+#1 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(691): file_put_contents()
+#2 /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php(203): Cm_Cache_Backend_File->_updateIdsTags()
+#3 /bitnami/magento/vendor/magento/zend-cache/library/Zend/Cache/Core.php(390): Cm_Cache_Backend_File->save()
+#4 /bitnami/magento/vendor/magento/framework/Cache/Core.php(74): Zend_Cache_Core->save()
+#5 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Adapter/Zend.php(63): Magento\Framework\Cache\Core->save()
+#6 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Adapter\Zend->save()
+#7 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#8 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#9 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#10 /bitnami/magento/vendor/magento/framework/App/Cache/Type/AccessProxy.php(85): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#11 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/Bare.php(75): Magento\Framework\App\Cache\Type\AccessProxy->save()
+#12 /bitnami/magento/vendor/magento/framework/Cache/Frontend/Decorator/TagScope.php(52): Magento\Framework\Cache\Frontend\Decorator\Bare->save()
+#13 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(255): Magento\Framework\Cache\Frontend\Decorator\TagScope->save()
+#14 /bitnami/magento/vendor/magento/framework/Interception/PluginList/PluginList.php(190): Magento\Framework\Interception\PluginList\PluginList->_loadScopedData()
+#15 /bitnami/magento/generated/code/Magento/Framework/Session/Generic/Interceptor.php(22): Magento\Framework\Interception\PluginList\PluginList->getNext()
+#16 /bitnami/magento/vendor/magento/framework/Session/SessionManager.php(123): Magento\Framework\Session\Generic\Interceptor->start()
+#17 /bitnami/magento/generated/code/Magento/Framework/Session/Generic/Interceptor.php(14): Magento\Framework\Session\SessionManager->__construct()
+#18 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\Session\Generic\Interceptor->__construct()
+#19 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#20 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#21 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#22 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#23 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#24 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#25 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(79): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#26 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(150): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#27 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(125): Magento\Framework\ObjectManager\Factory\Compiled->get()
+#28 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(86): Magento\Framework\ObjectManager\Factory\Compiled->parseArray()
+#29 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#30 /bitnami/magento/vendor/magento/framework/App/FrontController.php(109): Magento\Framework\ObjectManager\ObjectManager->get()
+#31 /bitnami/magento/generated/code/Magento/Framework/App/FrontController/Interceptor.php(14): Magento\Framework\App\FrontController->__construct()
+#32 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php(121): Magento\Framework\App\FrontController\Interceptor->__construct()
+#33 /bitnami/magento/vendor/magento/framework/ObjectManager/Factory/Compiled.php(108): Magento\Framework\ObjectManager\Factory\AbstractFactory->createObject()
+#34 /bitnami/magento/vendor/magento/framework/ObjectManager/ObjectManager.php(70): Magento\Framework\ObjectManager\Factory\Compiled->create()
+#35 /bitnami/magento/vendor/magento/framework/App/Http.php(115): Magento\Framework\ObjectManager\ObjectManager->get()
+#36 /bitnami/magento/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http->launch()
+#37 /bitnami/magento/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#38 {main} {"report_id":"422293a4aab9061011533713a65665748a326796f6adb0bd686b6c483611415c","exception":"[object] (Exception(code: 0): Warning: file_put_contents(/bitnami/magento/var/cache//mage-tags/mage---000_COMPILED_CONFIG): Failed to open stream: Permission denied in /bitnami/magento/vendor/colinmollenhour/cache-backend-file/File.php on line 691 at /bitnami/magento/vendor/magento/framework/App/ErrorHandler.php:62)"} []
