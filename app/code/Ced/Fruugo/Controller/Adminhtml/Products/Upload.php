@@ -76,7 +76,7 @@ class Upload extends \Magento\Backend\App\Action
     }
 
     /**
-     * Product sync
+     * Product sync test
      */
     public function execute()
     {
